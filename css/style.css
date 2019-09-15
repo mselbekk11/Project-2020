@@ -13,14 +13,18 @@
 	font-size: inherit;
 }
 
-body {margin-top:10px;background-color: rgb(65, 65, 65);}
+body {
+  margin-top:10px;
+  background-color: rgb(65, 65, 65);
+}
 
 .light-blue {background-color: #EBEDF2!important;}
 .light-blue.lighten-1 {background-color: #EBEDF2!important;}
 
 .section.no-pad-bot.top{
-  background-color: #EBEDF2!important;min-height: 600px;
-  background-image: url("MS.png");
+  background-color: #EBEDF2!important;
+  min-height: 600px;
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568559425/traingles-2_gtagym.svg");
 }
 
 .section.no-pad-bot {background-color: #ffffff!important;}
@@ -46,6 +50,10 @@ body {margin-top:10px;background-color: rgb(65, 65, 65);}
   color: #CACACA;
   margin-top: 0px;}
 
+
+  .container.top h2 br {display:none;}
+
+
 .container.top h5 {
   padding-left:0px!important;
   margin-top: 0px;
@@ -58,7 +66,7 @@ body {margin-top:10px;background-color: rgb(65, 65, 65);}
 
 
 
-.container.top svg {margin-right: 25px;}
+.container.top svg {margin-right: 15px;}
 
 
 
@@ -162,6 +170,43 @@ body {margin-top:10px;background-color: rgb(65, 65, 65);}
 
 
 
+@media only screen and (max-width: 1100px) {
+
+  .container.top .row {
+    padding-right: 0%!important;
+  }
+
+}
+
+
+
+/* TABLET */
+@media only screen and (max-width: 900px) {
+
+  .container.top .row {
+    padding-right: 0%!important;
+  }
+
+  .container.top h2 {font-size: 25px;line-height: 30px;}
+
+
+}
+/* TABLET */
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 700px) {
+  
+  .container.top h1 {font-size: 30px;}
+  .container.top h2 {font-size: 20px;}
+
+  .container.top h2 br {display:block;}
+
+ 
+  
+}
+/* MOBILE */
 
 
 
