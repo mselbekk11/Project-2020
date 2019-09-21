@@ -23,7 +23,9 @@ body {
 
 .section.no-pad-bot.top{
   background-color: #EBEDF2!important;
-  min-height: 600px;
+  /* min-height: 550px; */
+  height: 100%;
+  padding-bottom: 20px;
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568559425/traingles-2_gtagym.svg"); */
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568673302/pattern_h63wny.svg"); */
   
@@ -34,10 +36,22 @@ body {
   background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568742690/pattern_3_oghila.svg"); */
 
   
-  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568743670/pattern_4_zsfrms.svg");
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568743670/pattern_4_zsfrms.svg"); */
 
 
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568839176/pattern_5_k8xdkt.svg"); */
+
+
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568999481/pattern_7_vrhqoq.svg");
+ */
+
+/*   
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
+
+
+ 
 
 }
 
@@ -45,28 +59,50 @@ body {
 
 .section.no-pad-bot {background-color: #ffffff!important;}
 
-.container {max-width:1400px;width: 80%;}
+.container {
+  max-width:1100px;
+  width: 80%;
+}
 
 
 .container.top {
-  padding-top: 100px;
-  padding-bottom:100px;
-  padding-left:0.75rem;
+  margin-top: 120px;
+  /* margin-bottom:100px; */
+  padding-left:6.75rem;
+  padding-right: 6.7rem;
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568657764/50B_bjb4u0.png"); */
   background-repeat: no-repeat;
   background-position: right;
   /* opacity: .6; */
+  /* background-color: #F9FBFE; */
+  background-color: #414141;
+  webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+
 } 
 
 
 .container.top h1, h5 {text-align: left;}
+
+
+span.emoji {
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 0px 6px
+
+}
+
+
 
 .container.top h1 {
   font-size: 36px;
   font-family: 'Roboto Slab', serif;
   /* font-family: 'Bree Serif', serif; */
   font-weight: bold;
-  color: #474747;
+  /* color: #474747; */
+  /* color: #272727; */
+  color: #dadada;
   margin-bottom: 10px;
   opacity:1.0;
     transition: opacity 2s;
@@ -74,11 +110,12 @@ body {
 }
 
 .container.top h2 {
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Roboto Slab', serif;
   /* font-family: 'Bree Serif', serif; */
   font-weight: bold;
-  color: #CACACA;
+  /* color: #CACACA; */
+  color: #848484;
   margin-top: 0px;
 }
 
@@ -91,12 +128,20 @@ color:#000;
 
 .container.top h5 {
   padding-left:0px!important;
+  padding-right:0px!important;
   margin-top: 0px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #767676;
+  /* color: #767676; */
+  /* color: #808080; */
+  color: #b8b8b8;
   line-height: 1.5em;
+}
+
+.container.top h5 a {
+  color: #fff;
+  /* text-decoration: underline; */
 }
 
 .container.top .row.below {margin-bottom: 10px;}
@@ -110,7 +155,7 @@ color:#000;
 
 .container.top .row {
   text-align: left!important;
-  padding-right: 44%!important;
+  padding-right: 0px!important;
 }
 
 
@@ -122,6 +167,11 @@ color:#000;
   svg path {
     fill: #fff;
   }
+
+  svg path.cv {
+    fill: #000!important;
+  }
+
 /* 
   svg path.cv {
     fill: #fff;
@@ -165,6 +215,93 @@ color:#000;
 
 
 
+/*MIDDLE*/
+
+
+.section.no-pad-bot.middle{
+  background-color: #EBEDF2!important;
+  min-height: 100%;
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
+  
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+
+  padding-bottom: 20px;
+}
+
+.container.middle {
+  
+  /* width: 80%; */
+}
+
+
+.container.middle {
+  max-width:1100px;
+  /* margin-top: 40px!important; */
+  min-height: 300px;
+  padding-left:6.75rem;
+  padding-right: 6.7rem;
+  padding-bottom: 40px;
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568657764/50B_bjb4u0.png"); */
+  background-repeat: no-repeat;
+  background-position: right;
+  /* opacity: .6; */
+  /* background-color: #F9FBFE; */
+  background-color: #414141;
+  webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+
+} 
+
+.container.middle .row{
+  margin: 0px;
+}
+
+.col.s6.skills-left {
+  /* background-color: white; */
+}
+
+.col.s6.skills-right {
+  /* background-color: white; */
+}
+
+.container.middle h1 {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Bree Serif', serif; */
+    font-weight: bold;
+    /* color: #CACACA; */
+    color: #dadada;
+    margin-bottom: 40px;
+    margin-top: 60px;
+
+}
+
+.container.middle li {
+  font-size: 14px;
+  color: #b8b8b8;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}
+
+.container.middle img {
+  vertical-align: middle;
+  margin-right: 10px;
+  opacity: .9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,9 +309,44 @@ color:#000;
 
 
 .page-footer {
-  background-color:#474747;
+  /* background-color:#474747; */
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568743670/pattern_4_zsfrms.svg"); */
+
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
+
+  
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+
+
+
+  padding-bottom: 50px!important;
   
 }
+
+.container.bottom {
+  background-color: rgb(65, 65, 65);
+  margin-bottom: 50px;
+  /* margin-top: 40px; */
+  webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+
+}
+
+
+.container.bottom .row.grey-box {
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+
+
+/* .row .col .s12 .grey-bottom {
+  padding-left: 6.75rem;
+  padding-right: 6.75rem;
+} */
 
 .page-footer .row {
   margin-bottom: 0px;
