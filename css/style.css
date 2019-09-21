@@ -37,6 +37,7 @@ body {
   background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568743670/pattern_4_zsfrms.svg");
 
 
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568839176/pattern_5_k8xdkt.svg"); */
 
 }
 
@@ -56,12 +57,6 @@ body {
   background-position: right;
   /* opacity: .6; */
 } 
-
-
-.container.top .white-box{
-  max-width: 800px;
-  background-color: #fff;
-}
 
 
 .container.top h1, h5 {text-align: left;}
