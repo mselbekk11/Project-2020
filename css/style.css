@@ -18,11 +18,18 @@ body {
   background-color: rgb(65, 65, 65);
 }
 
+.background-cover {
+  /* background-color: red; */
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+background-position-x: 50px;
+}
+
 .light-blue {background-color: #EBEDF2!important;}
 .light-blue.lighten-1 {background-color: #EBEDF2!important;}
 
 .section.no-pad-bot.top{
-  background-color: #EBEDF2!important;
+  /* background-color: #EBEDF2!important; */
+  background: none!important;
   /* min-height: 550px; */
   height: 100%;
   padding-bottom: 20px;
@@ -42,8 +49,6 @@ body {
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568839176/pattern_5_k8xdkt.svg"); */
 
 
-  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
-
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568999481/pattern_7_vrhqoq.svg");
  */
 
@@ -51,13 +56,21 @@ body {
   background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
 
 
- 
+/* This is the background */
+  
+  /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+ */
+
+ /* This is the background */
 
 }
 
 
 
-.section.no-pad-bot {background-color: #ffffff!important;}
+.section.no-pad-bot {
+  /* background-color: #ffffff!important; */
+  background: none!important;
+}
 
 .container {
   max-width:1100px;
@@ -226,11 +239,17 @@ color:#000;
 
 
 .section.no-pad-bot.middle{
-  background-color: #EBEDF2!important;
+  /* background-color: #EBEDF2!important; */
+  background: none!important;
   min-height: 100%;
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
   
-  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+/*This is the background */
+/* 
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg"); */
+
+/*This is the background */
+
 
   padding-bottom: 20px;
 }
@@ -323,13 +342,26 @@ color:#000;
 
   /* background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1569000246/pattern_11_sqyeh3.svg"); */
 
-  
-  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
+/*   
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg"); */
 
-
+  background: none!important;
 
   padding-bottom: 50px!important;
   
+}
+
+.page-footer h2 {
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Bree Serif', serif; */
+  font-weight: bold;
+  /* color: #CACACA; */
+  color: #dadada;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-left:0.75rem;
 }
 
 .container.bottom {
@@ -526,6 +558,9 @@ h1 #fademe{
   margin-bottom: 0px;
 }
 
+.page-footer {
+  padding-bottom: 10px!important;
+
 }
 
 /* MOBILE */
@@ -541,6 +576,10 @@ h1 #fademe{
 }
 
 @media only screen and (max-width: 500px) {
+
+  .background-cover {
+    background-position-x: 34px;
+  }
   .row.grey-box  .row .col.s6 {width: 100%;}
 
   .container.top {
