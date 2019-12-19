@@ -8,13 +8,15 @@
 
 body {
   margin:10px;
-  background-color: rgb(65, 65, 65);
+  background-color:#fff;
 }
 
 .background-cover {
   /* background-color: red; */
-  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1568842587/pattern_6_mqdkuk.svg");
-background-position-x: 50px;
+  background-image: url("https://res.cloudinary.com/mselbekk-com/image/upload/v1576789947/pattern_eus3wg.svg");
+/* background-position-x: 50px; */
+/* background: rgb(6,0,105);
+background: linear-gradient(90deg, rgba(6,0,105,1) 0%, rgba(93,9,177,1) 55%, rgba(179,0,255,1) 100%); */
 }
 
 .light-blue {background-color: #EBEDF2!important;}
@@ -84,6 +86,11 @@ span.emoji {
   opacity:1.0;
     transition: opacity 2s;
     -webkit-transition: opacity 2s; /* Safari */
+    text-align: center;
+}
+
+.container.top h1 span {
+  color: rgb(104, 104, 104);
 }
 
 .container.top h2 {
