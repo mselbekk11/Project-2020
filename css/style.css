@@ -828,6 +828,10 @@ label input:focus {
   margin-bottom: 10px;
 }
 
+.social a {
+  text-decoration: none;
+}
+
 .social button {
   display: inline-block;
   min-width: 200px;
